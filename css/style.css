@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #5072a7;
+  background: linear-gradient(180deg, #5072a7 0%, #6186be 100%);
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 150%;
+}
+.foto-perfil {
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px #0000007d;
+}
+.about-me {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-size: 15pt;
+}
+.name {
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 0px;
+  letter-spacing: -2px;
+}
+
+.socialLinks {
+  list-style: none;
+  margin: 40px;
+  padding: 0;
+}
+.socialLists li {
+  color: white;
+}
+
+.social-bottons {
+  background-color: white;
+  font-size: 12pt;
+  color: rgb(32, 32, 32);
+  padding: 16px 16px;
+  margin: 10px 50px;
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 700px;
+}
+.social-bottons:hover {
+  filter: brightness(0.95);
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+
+@media (max-width: 800px) {
+  .social-bottons {
+    width: 550px;
+  }
+}
+
+@media (max-width: 630px) {
+  .social-bottons {
+    width: 250px;
+  }
+}
